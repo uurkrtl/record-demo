@@ -1,9 +1,11 @@
 package net.ugurkartal;
 
 public record Animal(
-        int id,
+        long id,
         String name,
         String species,
-        int age
+        int age,
+        Owner owner,
+        Species food
 ) {
 }
